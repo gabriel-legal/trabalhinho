@@ -1,7 +1,17 @@
 def calculos (a, b):
      a= int (input("valor 1: "))
      b=  int (input("valor 2: "))
-     resultado = a + b
+     calc= str(input("some = 1, sub = 2, div = 3, multi = 4, potencia = 5: "))
+     if calc ==  "1":
+         resultado = a + b
+     elif calc == "2":
+         resultado = a - b
+     elif calc == "3":
+         resultado = a / b
+     elif calc == "4":
+         resultado = a * b
+     elif calc == "5":
+         resultado = a ** b
      print (resultado)
 
 def userdata ():
