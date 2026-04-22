@@ -13,10 +13,11 @@ def calculos (a, b):
      elif calc == "5":
          resultado = a ** b
      print (resultado)
+     print ("\n ----adeus usuario---- \n")
 
 def userdata ():
-    username = input("insira nome:")
-    senha= input ("insira senha:")
+    username = input("insira nome: ")
+    senha= input ("insira senha: ")
     
     if username == "admin" and senha == "0000":
         print ("acesso permitido")
@@ -26,7 +27,9 @@ def userdata ():
         print ("acesso negado")
         
 def intro():
-    print ("\nBem vindo a super calculadora de elite\n")
+    print ("\nBem vindo a calculadora 2.0\n")
+    print ("essa é a melhor calculadora que você jamais verá na sua vida\n")
+    print ("por favor, insira o nome e senha de usuario para proseguir:\n")
     
 intro()
 
